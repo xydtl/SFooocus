@@ -116,23 +116,19 @@ def prepare_environment():
 
 model_filenames = [
     (
-        "sd_xl_base_1.0_0.9vae.safetensors",
-        "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors",
+        "RakibuniverseV4.safetensors",
+        "https://huggingface.co/rafiislam/RakibUniverse/resolve/main/RakibuniverseV4.safetensors",
     ),
 ]
 
 lora_filenames = [
     (
-        "sd_xl_offset_example-lora_1.0.safetensors",
-        "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors",
+        "sdxl_lightning_8step_lora.safetensors",
+        "https://huggingface.co/rafiislam/Lora/resolve/main/sdxl_lightning_8step_lora.safetensors",
     ),
     (
-        "lcm-lora-sdxl.safetensors",
-        "https://huggingface.co/latent-consistency/lcm-lora-sdxl/resolve/main/pytorch_lora_weights.safetensors",
-    ),
-    (
-        "lcm-lora-ssd-1b.safetensors",
-        "https://huggingface.co/latent-consistency/lcm-lora-ssd-1b/resolve/main/pytorch_lora_weights.safetensors",
+        "mymj.safetensors",
+        "https://huggingface.co/rafiislam/RakibUniverse/resolve/main/mymj.safetensors",
     ),
 ]
 
