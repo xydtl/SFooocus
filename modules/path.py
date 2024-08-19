@@ -62,9 +62,11 @@ class PathManager:
 
     def get_default_model_names(self):
         return {
-            "default_base_model_name": "sd_xl_base_1.0_0.9vae.safetensors",
-            "default_lora_name": "sd_xl_offset_example-lora_1.0.safetensors",
-            "default_lora_weight": 0.5,
+            "default_base_model_name": "RakibuniverseV4.safetensors",
+            "default_lora_name": "sdxl_lightning_8step_lora.safetensors",
+            "default_lora_weight": 1.0,
+            "default_lora_name": "mymj.safetensors",
+            "default_lora_weight": 0.2,
         }
 
     def get_abspath_folder(self, path):
