@@ -127,8 +127,8 @@ lora_filenames = [
         "https://huggingface.co/rafiislam/Lora/resolve/main/sdxl_lightning_8step_lora.safetensors",
     ),
     (
-        "mymj.safetensors",
-        "https://huggingface.co/rafiislam/RakibUniverse/resolve/main/mymj.safetensors",
+        "mj.safetensors",
+        "https://huggingface.co/rafiislam/Lora/resolve/main/mj.safetensors",
     ),
 ]
 
