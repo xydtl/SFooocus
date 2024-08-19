@@ -9,10 +9,10 @@ class PerformanceSettings:
     CUSTOM_PERFORMANCE = "Custom..."
 
     default_settings = {
-        "custom_steps": 30,
-        "cfg": 8,
+        "custom_steps": 10,
+        "cfg": 1.5,
         "sampler_name": "dpmpp_2m_sde_gpu",
-        "scheduler": "karras",
+        "scheduler": "sgm_uniform",
         "clip_skip": 1,
     }
 
